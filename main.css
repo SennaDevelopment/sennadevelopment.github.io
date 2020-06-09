@@ -1,3 +1,13 @@
-h1 {
-    color: green;
+#center-header-top {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+    font-weight: 500;
+}
+
+#center-header {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+    font-weight: 20;
 }
