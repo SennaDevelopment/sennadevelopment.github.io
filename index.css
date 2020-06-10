@@ -1,5 +1,5 @@
 body {
-    background-image: url(./src/img/bg-blurred-001.jpg);
+    background-image: url(./src/img/bg-blurred-001.jpg) !important;
     background-size: 110%;
     background-position: 60%;
 }
