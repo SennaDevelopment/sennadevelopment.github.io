@@ -1,0 +1,33 @@
+body {
+    background-image: url(./src/img/bg-blurred-001.jpg);
+    background-size: 110%;
+    background-position: 60%;
+}
+
+#header-top {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 90px;
+    font-weight: 500;
+}
+
+#header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+    font-weight: 20;
+}
+
+#center-text {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px rgb(61, 61, 61);
+}
+
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #cccccc;
+    text-shadow: 2px 2px rgb(61, 61, 61);
+}
