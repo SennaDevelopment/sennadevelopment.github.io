@@ -145,7 +145,7 @@ main {
         margin: 0;
     }
 
-    nav-item:last-child {
+    .nav-item:last-child {
         display: none;
     } 
 }
