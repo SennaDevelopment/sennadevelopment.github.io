@@ -144,6 +144,10 @@ main {
     main {
         margin: 0;
     }
+
+    nav-item:last-child {
+        display: none;
+    } 
 }
 /* For large screen devices*/
 @media only screen and (min-width: 600px) {
