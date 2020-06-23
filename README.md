@@ -1,1 +1,0 @@
-# sennadevelopment.github.io
