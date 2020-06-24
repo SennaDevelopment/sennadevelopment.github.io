@@ -139,6 +139,7 @@ main {
 
     .nav-link {
         justify-content: center;
+        fill: var(--icon-primary)
     }
 
     main {
@@ -148,6 +149,10 @@ main {
     .nav-item:last-child {
         display: none;
     } 
+
+    body main p:last-of-type {
+        padding-bottom: 70px;
+    }
 }
 /* For large screen devices*/
 @media only screen and (min-width: 600px) {
