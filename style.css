@@ -28,7 +28,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #6649b8;
+    background: var(--icon-primary);
 }
 
 main {
@@ -165,4 +165,12 @@ main {
         display: inline;
         transition: opacity var(--transition-speed);
     }
+}
+
+svg {
+    fill: var(--icon-primary);
+}
+
+.nav-item:hover svg {
+    transition: opacity var(--transition-speed);
 }
