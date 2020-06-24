@@ -165,12 +165,12 @@ main {
         display: inline;
         transition: opacity var(--transition-speed);
     }
-}
 
-svg {
-    fill: var(--icon-primary);
-}
-
-.nav-item:hover svg {
-    transition: opacity var(--transition-speed);
+    svg {
+        fill: var(--icon-primary);
+    }
+    
+    .nav-item:hover svg {
+        transition: opacity var(--transition-speed);
+    }
 }
