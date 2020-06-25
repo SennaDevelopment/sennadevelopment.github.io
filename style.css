@@ -349,7 +349,7 @@ header {
 }
 
 .center-logo:hover {
-    animation: color-rotate 1s;
+    animation: color-rotate 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
