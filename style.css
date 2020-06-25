@@ -365,3 +365,9 @@ header {
 header h3 {
     padding-bottom: 60px;
 }
+
+footer {
+    margin-left: 5rem;
+    padding: 1rem;
+    background: var(--bg-dropdown);
+}
