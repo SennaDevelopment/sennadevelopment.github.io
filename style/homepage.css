@@ -22,6 +22,7 @@
     --blue: #0084a5;
     --purple: #a82dd1;
     --yellow: #fff565;
+    --footer: #22252c;
 }
 
 body {
@@ -174,6 +175,10 @@ main {
 
     body main p:last-of-type {
         padding-bottom: 70px;
+    }
+    
+    footer {
+        margin-bottom: 70px;
     }
 }
 /* For large screen devices*/
@@ -374,8 +379,24 @@ footer {
     left: 0;
     bottom: 0;
     width: auto;
-    background-color: var(--gray6);
+    background-color: var(--footer);
     color: white;
     text-align: left;
     padding-left: 6rem;
+}
+
+footer h3 {
+    float:left;
+    padding-top: 10px;
+}
+
+footer .footer-icon {
+    height: 45px;
+    padding: 20px;
+    float: right;
+}
+
+footer .github-icon-link {
+    height: 20px;
+    width: 20px
 }
