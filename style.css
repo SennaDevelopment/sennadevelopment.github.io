@@ -354,6 +354,14 @@ header {
     animation-direction: alternate;
 }
 
-.center-htext {
-    font-size: 3rem;
+.center-htexth1 {
+    font-size: 3em;
+}
+
+.center-htexth3 {
+    font-size: 3ch;
+}
+
+header h3 {
+    padding-bottom: 60px;
 }
