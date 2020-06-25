@@ -1,0 +1,96 @@
+:root {
+    /* Color pallet and transition speed*/
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --icon-primary: rgb(48, 212, 48);
+    --icon-secondary: rgb(0, 148, 0);
+    --icon-primary: var(--gray2);
+    --icon-secondary: var(--gray3);
+    --transition-speed: 600ms;
+    --gray0: #f8f8f8;
+    --gray1: #dbe1e8;
+    --gray2: #b2becd;
+    --gray3: #6c7983;
+    --gray4: #454e56;
+    --gray5: #2a2e35;
+    --gray6: #1f2125;
+    --blue: #0084a5;
+    --purple: #a82dd1;
+    --yellow: #fff565;
+}
+
+body {
+    background: var(--gray5);
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+}
+
+header {
+    padding: 1em;
+    background: linear-gradient(to right, var(--gray5), var(--gray6));
+    margin-bottom: 1em;
+    padding-bottom: 3.5em;
+    text-align: center;
+    clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);
+}
+
+.center-logo {
+    height: 160px;
+    padding-top: 60px;
+}
+
+.center-logo:hover {
+    animation: color-rotate 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.center-htexth1 {
+    font-size: 3em;
+}
+
+.center-htexth3 {
+    font-size: 3ch;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+p {
+    padding:0;
+    margin:0;
+    font-size: 150%;
+}
+
+p:last-of-type {
+    padding-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    padding: 0.2rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--gray6);
+    color: white;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+
+.button {
+    background-color: var(--gray4);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
