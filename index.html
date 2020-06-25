@@ -4,6 +4,8 @@
     <title>Homepage - Senna Development</title>
     <link rel="icon" href="./src/img/branding/logo2.png">
     <link rel="stylesheet" href="style.css">
+    <!--#DEBUGGING ONLY# <link rel="stylesheet" href="second.css">-->
+    <script defer src="app.js"></script>
 
     <!-- Primary Meta Tags -->
     <meta charset="UTF-8">
@@ -26,7 +28,7 @@
     <meta property="twitter:description" content="Senna Development develops and provides tools, programs and more solutions for a wide spectrum of clients.">
     <meta property="twitter:image" content="https://sennadevelopment.github.io/src/img/meta/meta-img.jpeg">
 </head>
-<body>
+<body class="dark">
     <nav class="navbar">
         <ul class="navbar-nav">
             <li class="logo">
@@ -180,8 +182,8 @@
                 </a>
             </li>
     
-            <li class="nav-item" id="themeButton">
-                <a href="#" class="nav-link">
+            <li class="nav-item has-dropdown">
+                <a href="#" class="nav-link" id="themeButton">
                     <svg
                         class="theme-icon"
                         id="lightIcon"
@@ -259,10 +261,26 @@
                     </svg>-->
                     <span class="link-text">Switch Theme</span>
                 </a>
+                <ul id="dropdown">
+                    <li class="dropdown-item">
+                        <a id="light" href="#">Light</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a id="dark" href="#">Dark</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a id="solar" href="#">Solarize</a>
+                    </li>
+                </ul>
             </li>
+            <!--<li class="nav-item">Temp Button</li>-->
         </ul>
     </nav>
-
+    <header>
+        <img src="./src/img/branding/logo2.png" class="center-logo">
+            <h1 class="center-htext">Senna Development</h1>
+            <h3>Improving user experience.</h3>
+    </header>
     <main>
         <h1>Welcome to Senna Development</h1>
 
@@ -279,8 +297,6 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium magnam nesciunt maiores? Culpa autem natus vitae placeat a. Corporis vel dolores cumque saepe numquam, iste quas ipsum debitis qui illum minus odio incidunt nobis minima laudantium recusandae voluptates quos animi ducimus eius dicta! Harum maiores doloremque distinctio, fugiat earum ratione, repudiandae debitis excepturi perferendis accusantium nisi ad cum veritatis. Vitae, sunt dolores iste nemo eius eligendi, repudiandae eum perferendis harum ducimus doloremque, debitis vel. Autem sint ipsum neque aspernatur, sed eaque cum obcaecati architecto veniam tenetur perspiciatis soluta incidunt quisquam nam, natus voluptatum, ex officiis id saepe amet dolor libero. Sit quisquam sunt quis laboriosam expedita placeat, molestias soluta animi non harum odio culpa quas eos veritatis! Vitae perferendis repudiandae omnis, enim ducimus impedit, esse iure consequatur hic laudantium corporis quod eaque minima provident praesentium distinctio excepturi magni delectus tenetur cum saepe quae? Quasi consectetur aut nulla laudantium dolores quod adipisci itaque eos eum tempore. Dicta itaque officiis in expedita quas eveniet ea repellendus eaque assumenda iusto, laudantium minima aperiam vero fugiat neque? Aspernatur a temporibus molestiae repellendus incidunt hic ducimus cupiditate dolorum veritatis tempore est neque laborum, ab ea praesentium quos nemo, iste nobis eum dignissimos officiis ad quibusdam sequi nesciunt. Ipsa vel quis modi quod sequi, maxime assumenda veritatis fugit cupiditate, explicabo delectus facere itaque. Laudantium, ut repellendus! Ad, rerum odio necessitatibus consequuntur amet libero aperiam! Itaque, consequatur perferendis? Delectus illum, architecto rem sequi eaque culpa quaerat itaque id quod praesentium, in nostrum animi ipsam consequuntur, dolorem quasi similique! Illo, sapiente. Perspiciatis nostrum placeat suscipit voluptatem, laborum, illo sunt vero saepe atque veritatis molestiae porro, nulla tempore eaque deserunt exercitationem! Ipsam modi repellat nobis porro est fuga molestias natus ab sequi, quis, facilis quia ad veritatis necessitatibus distinctio et. Doloribus quisquam nam est nesciunt! Aliquam.</p>
 
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus doloribus iure ea a, exercitationem cumque sequi nam corrupti fuga! Est quas, et maxime ab beatae sit quae error doloribus expedita necessitatibus hic molestiae dicta, excepturi dolores laboriosam natus quibusdam suscipit ipsam. Quaerat, ipsam quisquam mollitia, voluptate repellat, ut harum in perspiciatis consequatur id ducimus veritatis? Ab odit deleniti alias necessitatibus explicabo autem eius expedita ipsam! Tempora accusamus ipsa architecto libero eum, quidem, soluta dolores enim inventore impedit minima nemo molestias sunt excepturi nesciunt illo distinctio! Ab excepturi quod beatae reprehenderit animi vitae et quasi tempore aliquid officia mollitia aspernatur delectus minima dolor debitis rem iure culpa, placeat veniam. Necessitatibus unde sint a omnis. Autem, suscipit saepe asperiores perferendis cumque quas iusto voluptatem eos!</p>
-
-
     </main>
 </body>
 </html>
