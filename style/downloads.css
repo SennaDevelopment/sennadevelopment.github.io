@@ -1,0 +1,33 @@
+header h1 {
+    padding-top: 40px;
+}
+
+.downloads-item, h2{
+    padding-top: 40px;
+    padding-bottom: 0;
+    margin: 0;
+    text-decoration: underline;
+}
+
+.btn {
+  background-color: #1f2125;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #32353b;
+}
+
+.inactive {
+    color: #909090;
+}
+
+.inactive:hover {
+    background-color: #1f2125;
+    cursor: default;
+}

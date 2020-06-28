@@ -180,6 +180,15 @@ main {
     footer {
         margin-bottom: 70px;
     }
+
+    header h3 {
+        padding-bottom: 80px;
+    }
+
+    .center-htexth3 {
+        padding-top: 0;
+        font-size: 1.25em;
+    }
 }
 /* For large screen devices*/
 @media only screen and (min-width: 600px) {
@@ -188,7 +197,6 @@ main {
         width: 5rem;
         height: 100vh;
     }
-
 
     .navbar:hover {
         width: 16rem;
@@ -205,6 +213,15 @@ main {
     
     .nav-item:hover svg {
         transition: opacity var(--transition-speed);
+    }
+
+    header h3 {
+        padding-bottom: 60px;
+    }
+
+    .center-htexth3 {
+        padding-top: 0;
+        font-size: 1.8em;
     }
 }
 
@@ -363,14 +380,7 @@ header {
 
 .center-htexth1 {
     font-size: 3em;
-}
-
-.center-htexth3 {
-    font-size: 3ch;
-}
-
-header h3 {
-    padding-bottom: 60px;
+    padding-bottom: 0;
 }
 
 footer {
