@@ -1,89 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Links - Senna Development</title>
-        <link rel="icon" href="./images/logo.png">
-        <link rel="stylesheet" href="style/links.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo">
-        <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script><script>window.addEventListener("load", function(){window.wpcc.init({"corners":"small","colors":{"popup":{"background":"#1a3242","text":"#ffffff","border":"#b3d0e4"},"button":{"background":"#b3d0e4","text":"#000000"}},"position":"bottom","border":"thin","transparency":"10","content":{"href":"./cookie-policy.html" /* https://sennadevelopment.github.io/cookie-policy/ */}})});</script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <style>body{font-family: 'Arimo';}</style>
-        <script defer src="app.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage - Senna Development</title>
+    <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script><script>window.addEventListener("load", function(){window.wpcc.init({"corners":"small","colors":{"popup":{"background":"#1a3242","text":"#ffffff","border":"#b3d0e4"},"button":{"background":"#b3d0e4","text":"#000000"}},"position":"bottom","border":"thin","transparency":"10","content":{"href":"https://sennadevelopment.github.io/cookie-policy"}})});</script>
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich&display=swap">
 
-        <!-- Primary Meta Tags -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="title" content="Senna Development — Improving user experience.">
-        <meta name="description" content="Senna Development develops and provides tools, programs and more solutions for a wide spectrum of clients.">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sennadevelopment.github.io/">
+    <meta property="og:title" content="Senna Development — Improving user experience.">
+    <meta property="og:description" content="Senna Development develops and provides tools, programs and more solutions for a wide spectrum of clients.">
+    <meta property="og:image:secure_url" content="https://sennadevelopment.github.io/src/img/meta/meta-img.png">
 
-
-        <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://sennadevelopment.github.io/">
-        <meta property="og:title" content="Senna Development — Improving user experience.">
-        <meta property="og:description" content="Senna Development develops and provides tools, programs and more solutions for a wide spectrum of clients.">
-        <meta property="og:image:secure_url" content="https://sennadevelopment.github.io/src/img/meta/meta-img.png">
-
-        <!-- Twitter -->
-        <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://sennadevelopment.github.io/">
-        <meta property="twitter:title" content="Senna Development — Improving user experience.">
-        <meta property="twitter:description" content="Senna Development develops and provides tools, programs and more solutions for a wide spectrum of clients.">
-        <meta property="twitter:image" content="https://sennadevelopment.github.io/src/img/meta/meta-img.png">
-    </head>
-    <body class="dark">
-        <header>
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://sennadevelopment.github.io/">
+    <meta property="twitter:title" content="Senna Development — Improving user experience.">
+    <meta property="twitter:description" content="Senna Development develops and provides tools, programs and more solutions for a wide spectrum of clients.">
+    <meta property="twitter:image" content="https://sennadevelopment.github.io/src/img/meta/meta-img.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="nav-brand">
+                    <a href="https://sennadevelopment.github.io/">
+                        <img src="images/logo.png">
+                    </a>
+                </div>
+                <div class="menu-icons open">
+                    <i class="icon ion-md-menu"></i>
+                </div>
+                <ul class="nav-list">
+                    <div class="menu-icons close">
+                        <i class="icon ion-md-close"></i>
+                    </div>
+                    <li class="nav-item">
+                        <a href="https://sennadevelopment.github.io/" class="nav-link current">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://sennadevelopment.github.io/about" class="nav-link">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://sennadevelopment.github.io/downloads" class="nav-link">Downloads</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://sennadevelopment.github.io/projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://sennadevelopment.github.io/contact" class="nav-link">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
             <div class="container">
-                <nav>
-                    <div class="nav-brand">
-                        <a href="https://sennadevelopment.github.io/">
-                            <img src="images/logo.png">
-                        </a>
+                <div class="main-message">
+                    <h3>Improving user experience</h3>
+                    <h1>Senna Development</h1>
+                    <p>Senna Development develops and provides tools, programs and more solutions for a wide spectrum of clients.
+                    </p>
+                    <div class="cta">
+                        <a href="https://sennadevelopment.github.io/projects" class="btn">See our projects</a>
                     </div>
-                    <div class="menu-icons open">
-                        <i class="icon ion-md-menu"></i>
+                </div>
+            </div>
+        </section>
+        <section class="experience-outdoors">
+            <div class="container">
+                <div class="title-heading">
+                    <h3>Experience</h3>
+                    <h1>Our features</h1>
+                    <p>See what we have to offer for your next project.</p>
+                </div>
+                <div class="activities-grid">
+                    <div class="activities-grid-item price">
+                        <i class="icon ion-md-pricetag"></i>
+                        <h1>Flexable pricing</h1>
+                        <p>Senna Development offers a wide variety of flexable prices to suit the complexity and required time of orders from our clients.</p>
                     </div>
-                    <ul class="nav-list">
-                        <div class="menu-icons close">
-                            <i class="icon ion-md-close"></i>
-                        </div>
-                        <li class="nav-item">
-                            <a href="https://sennadevelopment.github.io/" class="nav-link current">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://sennadevelopment.github.io/about" class="nav-link">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://sennadevelopment.github.io/downloads" class="nav-link">Downloads</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://sennadevelopment.github.io/projects" class="nav-link">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://sennadevelopment.github.io/contact" class="nav-link">Contact us</a>
-                        </li>
-                    </ul>
-                </nav>
+                    <div class="activities-grid-item support">
+                        <i class="icon ion-md-help-circle"></i>
+                        <h1>Support with your projects</h1>
+                        <p>We offer support to those who need assistance with projects of their own.</p>
+                    </div>
+                    <div class="activities-grid-item bugs">
+                        <i class="icon ion-md-bug"></i>
+                        <h1>Bug tracking</h1>
+                        <p>We offer a wide variety of bug tracking options to get your project running smoothly.</p>
+                    </div>
+                </div>
             </div>
-        </header>
-        <main>
-            <h1>Links</h1>
-            <div id=links-item>
-                <h2>Hawk Bot - Discord Bot</h2>
-                <p>Hawk Bot is a simple to use multi-purpose bot which has custom features for everyone.</p>
-                <a href="https://discord.com/api/oauth2/authorize?client_id=733673734778388583&permissions=8&scope=bot" class="btn"><i class="fa fa-chain"></i> Invite</a>
-                <a href="https://github.com/SennaDevelopment/hawk-bot/issues" class="btn"><i class="fa fa-bug"></i> Report Bug</a>
-                <a href="https://discord.gg/7baWuHD" class="btn"><i class="fa fa-support"></i> Support Server</a>
+        </section>
+        <section class="testimonials">
+            <div class="container">
+                <!--<div class="testimonial">
+                    <div class="testimonial-text-box">
+                        <p>%CUSTOMER_QUOTE%</p>
+                        <i class="icon ion-md-quote"></i>
+                    </div>
+                    <div class="testimonial-customer">
+                        <img src="images/">
+                        <h1>%NAME% %SURNAME%</h1>
+                    </div>
+                </div>-->
             </div>
-            <div id=links-item>
-                <h2>Hosting Service Status</h2>
-                <p>Check the uptime of our projects which are being hosted by our hosting service.</p>
-                <a href="https://stats.uptimerobot.com/v9rMMhWok6" class="btn"><i class="fa fa-wifi"></i> Check Uptime Page</a>
+        </section>
+        <section class="begin-adventure">
+            <div class="container">
+                <div class="title-heading">
+                    <h3>Make</h3>
+                    <h1>your ideas become reality</h1>
+                    <p>Start creating your project today.</p>
+                </div>
+                <div class="adventure-grid">
+                    <div class="adventure-grid-item">
+                        <p>If you have a project or idea in mind which you are willing to develop and/or grow, or want to see more features Senna Development has to offer for you;<br/><br/>Please contact us by clicking the button below, or by going to the 'contact us' tab in the navigation menu.</p>
+                    </div>
+                </div>
+                <a class="btn" href="https://sennadevelopment.github.io/contact">Contact us</a>
             </div>
-            <br><br><br>    
-        </main>
-        <footer>
-            <p>&copy; 2020 Senna Development. All rights reserved.</p>
-        </footer>
-    </body>
+        </section>
+    </main>
+    <div class="social-buttons">
+        <div class="sennadevelopment-social">
+            <div class="email" onclick="this.classList.add('expand')">
+              <div class="from">
+                <div class="from-contents">
+                  <div class="avatar me"></div>
+                  <div class="name">Senna Development</div>
+                </div>
+              </div>
+              <div class="to">
+                <div class="to-contents">
+                  <div class="top">
+                    <div class="avatar-large me"></div>
+                    <div class="name-large">Senna Development</div>
+                    <div class="x-touch" onclick="document.querySelector('.email').classList.remove('expand');event.stopPropagation();">
+                      <div class="x">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bottom">
+                    <div class="row">
+                      <svg class="twitter" viewBox="0 0 300 244.18703">
+                        <g transform="translate(-539.17946,-568.85777)" id="layer1">
+                          <path id="path3611" style="fill:#1da1f2;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 633.89823,812.04479 c 112.46038,0 173.95627,-93.16765 173.95627,-173.95625 0,-2.64628 -0.0539,-5.28062 -0.1726,-7.90305 11.93799,-8.63016 22.31446,-19.39999 30.49762,-31.65984 -10.95459,4.86937 -22.74358,8.14741 -35.11071,9.62551 12.62341,-7.56929 22.31446,-19.54304 26.88583,-33.81739 -11.81284,7.00307 -24.89517,12.09297 -38.82383,14.84055 -11.15723,-11.88436 -27.04079,-19.31655 -44.62892,-19.31655 -33.76374,0 -61.14426,27.38052 -61.14426,61.13233 0,4.79784 0.5364,9.46458 1.58538,13.94057 -50.81546,-2.55686 -95.87353,-26.88582 -126.02546,-63.87991 -5.25082,9.03545 -8.27852,19.53111 -8.27852,30.73006 0,21.21186 10.79366,39.93837 27.20766,50.89296 -10.03077,-0.30992 -19.45363,-3.06348 -27.69044,-7.64676 -0.009,0.25652 -0.009,0.50661 -0.009,0.78077 0,29.60957 21.07478,54.3319 49.0513,59.93435 -5.13757,1.40062 -10.54335,2.15158 -16.12196,2.15158 -3.93364,0 -7.76596,-0.38716 -11.49099,-1.1026 7.78383,24.2932 30.35457,41.97073 57.11525,42.46543 -20.92578,16.40207 -47.28712,26.17062 -75.93712,26.17062 -4.92898,0 -9.79834,-0.28036 -14.58427,-0.84634 27.05868,17.34379 59.18936,27.46396 93.72193,27.46396"/>
+                        </g>
+                      </svg>
+                      <div class="link"><a href="https://twitter.com/sennadevelop">@SennaDevelop</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>          
+    </div>
+    <footer>
+        <p>&copy; 2020 Senna Development. All rights reserved.</p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
 </html>
