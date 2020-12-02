@@ -5,8 +5,6 @@
     --text-secondary: #ececec;
     --bg-primary: #23232e;
     --bg-secondary: #141418;
-    /*--icon-primary: #ff7eee;
-    --icon-secondary: #df49a6;*/
     --icon-primary: rgb(48, 212, 48);
     --icon-secondary: rgb(0, 148, 0);
     --icon-primary: var(--gray2);
@@ -225,19 +223,6 @@ main {
     }
 }
 
-/* Second Style CSS Begin*?
-/* Webpage Themes */
-
-.light {
-    --bg: var(--gray0);
-    --bg-logo: var(--gray6);
-    --bg-nav: linear-gradient(to right, var(--gray1), var(--gray3));
-    --bg-dropdown: var(--gray0);
-    --text: var(--gray6);
-    --border-color: var(--blue);
-    --bg-solar: var(--yellow);
-}
-
 .dark {
     --bg: var(--gray5);
     --bg-logo: var(--gray6);
@@ -247,23 +232,6 @@ main {
     --border-color: var(--purple);
     --bg-solar: var(--yellow);
 }
-
-.solar {
-    --gray0: #fbffd4;
-    --gray1: #f7f8d0;
-    --gray2: #b6f880;
-    --gray3: #5ec72d;
-    --gray4: #3ea565;
-    --gray5: #005368;
-    --gray6: #003d4c;
-}
-
-/*
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}*/
 
 a {
     color: currentColor;
@@ -280,8 +248,6 @@ header {
 }
 
 .navbar {
-    /*height: 70px;
-    width: 100%;*/
     background: var(--bg-dropdown);
     color: var(--text);
     z-index: 2;
@@ -343,14 +309,6 @@ header {
 
 #dark::before {
     background: #2a2e35;
-}
-
-#light::before {
-    background: #ffffff;
-}
-
-#solar::before {
-    background: var(--yellow);
 }
 
 @keyframes color-rotate {
