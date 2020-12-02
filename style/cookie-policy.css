@@ -1,0 +1,15 @@
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+}
+
+a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+h1 { font-size: 28px; margin: 0; }
+h2 { font-size: 18px; margin: 2px; }
+h3 { font-size: 14px; margin: 0; }
+
+.policy-container { padding-left: 18px; padding-top: 10px;}

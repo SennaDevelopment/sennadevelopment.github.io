@@ -517,12 +517,12 @@ main {
 
 main:first-of-type h1 { font-size: 40px; }
 
-#downloads-item h2 {
+#links-item h2 {
   font-size: 20px;
   padding-bottom: 5px;
 }
 
-#downloads-item:first-of-type p { padding-bottom: 5px; }
+#links-item:first-of-type p { padding-bottom: 5px; }
 
 #dev-only {
   font-style: italic;
@@ -539,4 +539,8 @@ footer {
   background-color: #1f2631;
   text-align: center;
   color: #ffffff;
+}
+
+#links-item p {
+  margin-bottom: 16px;
 }
