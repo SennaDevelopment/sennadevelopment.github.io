@@ -196,12 +196,18 @@ header h1 {
 }
 
 .btn {
-background-color: #1f2125;
-border: none;
-color: white;
-padding: 12px 30px;
-cursor: pointer;
-font-size: 20px;
+  background-color: #1f2125;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn a {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 .btn:hover { background-color: #32353b; }
@@ -236,6 +242,11 @@ main:first-of-type h1 { font-size: 40px; }
   cursor: not-allowed;
 }
 
+.btn.inactive a {
+  color: #8b8b8b;
+  cursor: not-allowed;
+}
+
 footer {
   padding: 2.5rem 0;
   margin-top: 309px;
@@ -244,11 +255,19 @@ footer {
   color: #ffffff;
 }
 
-#links-item p {
+/* #links-item p {
   margin-bottom: 16px;
-}
+} */
 
 #dev-only {
   font-style: italic;
   font-weight: 600;
+}
+
+#links-item:last-of-type p { padding-bottom: 5px; }
+
+@media screen and (max-width: 700px) {
+  .btn {
+    margin-top: 5px;
+  }
 }

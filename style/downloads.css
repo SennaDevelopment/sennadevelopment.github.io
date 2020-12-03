@@ -196,12 +196,12 @@ header h1 {
 }
 
 .btn {
-background-color: #1f2125;
-border: none;
-color: white;
-padding: 12px 30px;
-cursor: pointer;
-font-size: 20px;
+  background-color: #1f2125;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
 }
 
 .btn:hover { background-color: #32353b; }
@@ -236,10 +236,29 @@ main:first-of-type h1 { font-size: 40px; }
   cursor: not-allowed;
 }
 
+.btn.inactive a {
+  color: #8b8b8b;
+  cursor: not-allowed;
+}
+
 footer {
   padding: 2.5rem 0;
   margin-top: 309px;
   background-color: #1f2631;
   text-align: center;
+  color: #ffffff;
+}
+
+#downloads-item:last-of-type p { padding-bottom: 5px; }
+
+@media screen and (max-width: 700px) {
+  .btn {
+    margin-top: 15px;
+  }
+}
+
+.link-page-linkage {
+  font-size: 18px;
+  text-decoration: underline;
   color: #ffffff;
 }
