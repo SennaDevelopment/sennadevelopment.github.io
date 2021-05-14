@@ -231,7 +231,7 @@ main:first-of-type h1 { font-size: 40px; }
   padding-bottom: 5px;
 }
 
-#links-item:first-of-type p { padding-bottom: 5px; }
+#links-item p { padding-bottom: 5px; }
 
 #dev-only {
   font-style: italic;
@@ -263,8 +263,6 @@ footer {
   font-style: italic;
   font-weight: 600;
 }
-
-#links-item:last-of-type p { padding-bottom: 5px; }
 
 @media screen and (max-width: 700px) {
   .btn {
